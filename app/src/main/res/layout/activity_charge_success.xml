@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/chargeSuccessToActionsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chargeSuccessText"
+        android:layout_alignStart="@+id/chargeSuccessText"
+        android:layout_below="@+id/chargeSuccessEmailText"
+        android:layout_marginTop="50dp"
+        android:text="Back to Customer Actions"/>
+
+    <TextView
+        android:id="@+id/chargeSuccessAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chargeSuccessText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="$1.00"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/chargeSuccessText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Charge Successful for"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <Button
+        android:id="@+id/chargeSuccessToMainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chargeSuccessToActionsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Back to Main"/>
+
+    <TextView
+        android:id="@+id/chargeSuccessEmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chargeSuccessAmountText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Email Feedback Area"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+</RelativeLayout>
