@@ -1,7 +1,5 @@
 ##TCCart
 
-### Intro
-
 _TCCart_ is an Android final project written for Georgia Tech's Software Engineering course, CS 6300. It's meant to serve as a point-of-sale application for a coffee salesperson to track customers, payments, and rewards. Main features to support were:
 
 * Processing beverage transactions
